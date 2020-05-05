@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="anime.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="plyr.css" />
+    <meta charset="utf-8">
+
+<style>
+
+/*backgound image*/
+  body {
+  background-image: url('media/2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: auto auto;
+}
+
+
+/*audio players*/
+        div.a {
+position: relative;
+  top: 50px;
+  left: 0px;
+  padding: 0px;
+/*  width: 620px;*/
+/*  height: 800px;*/
+}
+
+        div.b {
+position: relative;
+  top: 300px;
+  left: 0px;
+    padding: 0px;
+
+}
+
+
+
+#dot {
+  height: 350px;
+  width: 350px;
+  background-color: #32a85c;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  top:0px;
+  opacity: 0.6;
+}
+
+#dot2 {
+  height: 65px;
+  width: 65px;
+  background-color: #32a85c;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  top:500px;
+  opacity: 0.6;
+}
+
+
+
+</style>
+
+<!-- bubbles -->
+<hgroup class="speech-bubble">
+  <p style = "color:black; font-family:verdana;">Ariel, you have worked on diverse projects around the topic of listening -either in urban or rather isolated natural surroundings. During your residency at Aalto University Helsinki for example, you constructed a complex public architecture in the centre of the city that could be experienced as a sculpture, but that was in fact built for entering and having intimate, self-reflexive conversations around the question, Why Do We Do the Things We Do?. During your time here at Platform 12, you constructed another conversation room which had a completely different shape, as well as a new concept behind. Can you tell me a bit more about your initial idea behind "Conversation Room" at Bosch and how if differs from your previous project in Finland?.</p>
+
+</hgroup>
+
+
+<hgroup class="speech-bubble2">
+  <p style = "color:white; font-family:verdana;">Considering the fact that the conversation partners normally work in very rational and production-oriented contexts, this setup must have been rather unusual for them. How did the people react to your invitation? Didn’t they first doubt or mistrust you when being introduced to Conversation Room?
+</p>
+
+</hgroup>
+
+<!-- bubbles -->
+
+
+  </head>
+
+  <body>
+
+
+  	<div id="dot"></div>
+    <div id="dot2"></div>
+    <script src="plyr.min.js"></script>
+    <script src="sketch.js"></script>
+
+  <!-- audio players -->
+  <div class="a"> 
+
+  <audio id="player1" controls>
+    <source src="media/1.mp3" type="audio/mp3"  />
+
+</audio>
+</div>
+
+<div class="b"> 
+  <audio id="player2" controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" />
+</audio>
+</div>
+  <!-- audio players -->
+
+</body></html>
