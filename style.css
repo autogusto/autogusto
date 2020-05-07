@@ -7,8 +7,8 @@ html {
 
 
 body {
-	max-width: 30em;
-	padding: 1em;
+	max-width: 25em;
+	padding: 0.5em;
 	margin: 10px;
 	position: relative;
 /*	right: 0%;*/
@@ -28,6 +28,7 @@ body {
 	padding: 1em;
 	border-radius: .9em;
 	top: 0px;
+	left:30%;
 }
 
 .speech-bubble:after {
@@ -47,11 +48,13 @@ body {
 }
 
 .speech-bubble2 {
-	position: absolute;
+	position: relative;
 	background: #a83289;
+	opacity: 0.85;
 	padding: 1em;
 	border-radius: .9em;
-    top: 500px;
+    top: 100px;
+    left:50%;
 }
 
 .speech-bubble2:after {
@@ -63,6 +66,110 @@ body {
 	height: 0;
 	border: 59px solid transparent;
 	border-left-color: #a83289;
+	opacity: 0.85;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -29.5px;
+	margin-right: -59px;
+}
+
+.speech-bubble3 {
+	position: relative;
+	background: #8da832;
+	opacity: 0.85;
+	padding: 1em;
+	border-radius: .9em;
+    top: 210px;
+    left:40%;
+}
+
+.speech-bubble3:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 59px solid transparent;
+	border-left-color: #8da832;
+	opacity: 0.85;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -29.5px;
+	margin-right: -59px;
+}
+
+.speech-bubble4 {
+	position: relative;
+	background: #3271a8;
+	opacity: 0.85;
+	padding: 0.1em;
+	border-radius: .4em;
+    top: 350px;
+    left:30%;
+}
+
+.speech-bubble4:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 59px solid transparent;
+	border-left-color: #3271a8;
+	opacity: 0.85;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -29.5px;
+	margin-right: -59px;
+}
+
+.speech-bubble5 {
+	position: relative;
+	background: #05FF00;
+	opacity: 0.85;
+	padding: 1em;
+	border-radius: .9em;
+    top: 450px;
+}
+
+.speech-bubble5:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 59px solid transparent;
+	border-left-color: #05FF00;
+	opacity: 0.85;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -29.5px;
+	margin-right: -59px;
+}
+
+.speech-bubble6 {
+	position: relative;
+	background: #8da832;
+	opacity: 0.85;
+	padding: 1em;
+	border-radius: .9em;
+    top: 550px;
+    left:20%;
+}
+
+.speech-bubble6:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 59px solid transparent;
+	border-left-color: #a83289;
+	opacity: 0.85;
 	border-right: 0;
 	border-top: 0;
 	margin-top: -29.5px;

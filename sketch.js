@@ -10,7 +10,7 @@
 
 function randomValues() {
   anime({
-    targets: '#dot, #dot2',
+    targets: '#dot, #dot2, #dot3, #dot4, #dot5, #dot6, #dot7, #dot8',
     translateX: function() {
       return anime.random(0, 20);
     },
@@ -32,3 +32,4 @@ randomValues();
 // translateX: 500,
 // translateY: 500,
 // scale: 10,
+
